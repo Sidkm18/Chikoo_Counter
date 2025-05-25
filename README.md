@@ -3,6 +3,11 @@
 
 A dual-microcontroller system that automatically counts *chikoos* (sapodillas) using sensors and controls a servo-powered gate based on a configurable target. The project uses an **ESP32-CAM** for detection and sends signals to an **Arduino Uno**, which handles counting, target-based logic, LCD output, and keypad input.
 
+## 🎥 Demo Video / Playlist
+
+Watch the full build process and demo on YouTube:  
+👉 [Chikoo Counter Playlist](https://youtube.com/playlist?list=PL1rhOocHJL5jO05mjCsfs9AhGH4bDs13j&feature=shared)
+
 ## 🛠️ Features
 
 - 🚀 **ESP32-CAM based Chikoo detection**
