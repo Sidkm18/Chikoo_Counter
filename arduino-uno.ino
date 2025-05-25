@@ -19,11 +19,11 @@ char keys[ROWS][COLS] = {
   {'7', '8', '9', 'C'},
   {'*', '0', '#', 'D'}
 };
-byte rowPins[ROWS] = {4, 5, 6, 7};       // Connect to keypad row pinouts
-byte colPins[COLS] = {10, 11, 12, 13};   // Connect to keypad column pinouts
+byte rowPins[ROWS] = {4, 5, 6, 7};       
+byte colPins[COLS] = {10, 11, 12, 13};   
 Keypad keypad = Keypad(makeKeymap(keys), rowPins, colPins, ROWS, COLS);
 
-// LCD Display setup (I2C address might need adjustment)
+// LCD Display setup
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // Servo setup
