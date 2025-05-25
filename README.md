@@ -19,18 +19,7 @@ Watch the full build process and demo on YouTube:
   - Buzzer alerts
 - 📟 **User Interface via 16x2 LCD + Keypad**
 - 🎯 **Target Mode**: Set a target count to auto-close the gate
-- 📊 **Live Count Mode**: Keep counting indefinitely
-
-## 🔌 Hardware Used
-
-- ESP32-CAM
-- Arduino Uno
-- IR Sensor
-- Servo Motor
-- Buzzer
-- 16x2 LCD with I2C module
-- 4x4 Matrix Keypad
-- Jumper wires, breadboard, power supply
+- 📊 **Live Count Mode**: Keep counting till the max capacity is achieved then close the trapdoor
 
 ## 📡 Communication
 
@@ -59,6 +48,18 @@ Watch the full build process and demo on YouTube:
 | `C`   | Backspace (Target Mode)           |
 | `#`   | Cancel/stop in Target Mode        |
 
+
+## 🔌 Hardware Used
+
+- ESP32-CAM
+- Arduino Uno
+- IR Sensor
+- Servo Motor
+- Buzzer
+- 16x2 LCD with I2C module
+- 4x4 Matrix Keypad
+- Jumper wires, breadboard, power supply
+
 ## 🧠 Code Structure
 
 - **ESP32-CAM Code**: Detects chikoos using image or sensor and sends `'D'` to Uno via UART
@@ -69,6 +70,7 @@ Watch the full build process and demo on YouTube:
 - Improve Object Detection Speed and Accuracy
 - Web dashboard for remote monitoring
 - Battery backup & solar integration
+- Simpler Hardware Design
 
 ## 💡 Inspiration
 
