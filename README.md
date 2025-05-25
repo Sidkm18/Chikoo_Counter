@@ -59,23 +59,9 @@ A dual-microcontroller system that automatically counts *chikoos* (sapodillas) u
 - **ESP32-CAM Code**: Detects chikoos using image or sensor and sends `'D'` to Uno via UART
 - **Arduino Uno Code**: Handles the UI, servo control, IR sensor debounce, count verification, and logic
 
-## 📦 Folder Structure
-
-```
-Chikoo_Counter/
-│
-├── esp32_camera/           # ESP32-CAM sketch
-│   └── esp32_camera.ino
-│
-├── arduino_uno/            # Arduino Uno sketch
-│   └── chikoo_counter.ino
-│
-└── README.md               # Project overview
-```
-
 ## 📷 Future Improvements
 
-- Integrate actual object detection on ESP32-CAM (e.g. using Edge Impulse)
+- Improve Object Detection Speed and Accuracy
 - Web dashboard for remote monitoring
 - Battery backup & solar integration
 
